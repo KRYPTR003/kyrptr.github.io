@@ -4,9 +4,9 @@ This is a small, single-page site of comforting lines and public-domain quotes.
 
 ## Live site
 
-If this repo is named `kyrptr.github.io`, it will be available at:
+If this repo is named `good-words`, it will be available at:
 
-`https://kyrptr.github.io`
+`[https://kyrptr.github.io](https://kryptr003.github.io/good-words/)`
 
 ## What’s inside
 
