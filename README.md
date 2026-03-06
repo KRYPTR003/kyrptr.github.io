@@ -6,7 +6,7 @@ This is a small, single-page site of comforting lines and public-domain quotes.
 
 If this repo is named `good-words`, it will be available at:
 
-`[https://kyrptr.github.io](https://kryptr003.github.io/good-words/)`
+https://kyrptr.github.io](https://kryptr003.github.io/good-words/
 
 ## What’s inside
 
