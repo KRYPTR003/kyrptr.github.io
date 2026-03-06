@@ -1,42 +1,34 @@
-# Personal Page (GitHub Pages)
+## Good Words
 
-This repo is a simple, animated personal homepage.
+This is a small, single-page site of comforting lines and public-domain quotes.
 
-## Edit me
+## Live site
 
-Open `index.html` and replace:
+If this repo is named `kyrptr.github.io`, it will be available at:
 
-- Name, role, location
-- Project cards (titles/links/tech)
-- Contact links (email/GitHub/LinkedIn)
+`https://kyrptr.github.io`
+
+## What’s inside
+
+- **`index.html`**: The main page markup and copy (hero text, sections for comfort, classics, and small notes).
+- **`styles.css`**: Layout, colors, typography, animations, and theme styling.
+- **`script.js`**: Theme toggle, subtle scroll/tilt effects, safety for external links, and the rotating quote card content.
+
+## Editing content
+
+- **Hero + section copy**: Edit the text directly in `index.html`.
+- **Rotating quotes**: Update the `quotes` array in `script.js` (each entry has `text`, `from`, and `tag`).
+- **Public-domain classics**: The three classic quote cards live in the “Classic lines (public domain)” section of `index.html`.
+- **Small notes**: The three “Small notes to keep” cards are also in `index.html`.
 
 ## Run locally
 
-You can just open `index.html` in a browser.
+You can open `index.html` directly in your browser.
 
-If you prefer a local server (recommended for caching / JS):
+For a simple local server (helpful for caching and JS), from this folder:
 
 ```bash
 python3 -m http.server 5173
 ```
 
 Then visit `http://localhost:5173`.
-
-## Publish on GitHub Pages
-
-### Option A: `username.github.io` (recommended)
-
-1. Create a GitHub repo named **`<your-username>.github.io`**
-2. Put these files at the repo root (this folder)
-3. Go to **Settings → Pages** and ensure:
-   - Source: **Deploy from a branch**
-   - Branch: **main** / root
-4. Your site will be live at `https://<your-username>.github.io`
-
-### Option B: Project Pages
-
-1. Create a normal repo (any name)
-2. Go to **Settings → Pages**
-3. Choose branch **main** / root
-4. Your site will be live at `https://<your-username>.github.io/<repo-name>/`
-
